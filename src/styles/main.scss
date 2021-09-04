@@ -1,7 +1,19 @@
 @import "utils";
 @import "fonts";
 @import "typography";
-@import "./blocks/lol.scss";
+@import "./blocks/header.scss";
+@import "./reset.scss";
+
+@import "./blocks/logo.scss";
+@import "./blocks/container-menu.scss";
+@import "./blocks/container-link.scss";
+@import "./blocks/container-info.scss";
+
+@import "./blocks/main/information.scss";
+@import "./blocks/main/colors.scss";
+@import "./blocks/main/container-colors.scss";
+
+@import "./blocks/footer/footer.scss";
 
 body {
   background: $c-gray;
